@@ -1,0 +1,15 @@
+let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'easily', 'the', 'first', 'time,', 'it', 'is', 'about', 'what', 'you', 'can', 'figure', 'out.', '-2015,', 'Chris', 'Pine,', 'Learn', 'JavaScript'];
+//this removes the 23rd. o-23 = 24 words in the above message before touching it.
+secretMessage.pop(23);
+//this adds two words to the secret message, after the last one is removed.
+secretMessage.push('to', 'program')
+//This changes the indexed word from easily to right. you have to select the word number.
+secretMessage[7] = 'right';
+//This removes the first string from the list
+secretMessage.shift(0);
+//this adds the word programming to the beginning
+secretMessage.unshift('Programming');
+//This will remove starts at the 6th word to the 10th. Then it adds "know" into the list in place. Remember 0 starts the list, so it goes 0-5 then deletes 6-10. adds 'Know' as the replacement 6th.
+secretMessage.splice(6, 5, 'know,');
+//This will print as asentance instead of a list. so it JOINS them together as one sentance.
+console.log(secretMessage.join());
