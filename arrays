@@ -1,0 +1,68 @@
+
+
+
+//updating array
+let groceryList = ['bread', 'tomatoes', 'milk'];
+
+// post update
+let groceryList = ['bread', 'avocados', 'milk'];
+
+
+
+
+
+
+//Arrays with Const and Let
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments[0] = 'Mayo';
+
+console.log(condiments);
+
+condiments = ['Mayo'];
+
+utensils[3] = 'Spoon';
+
+console.log(utensils);
+
+
+
+
+
+
+
+
+//The .length property
+
+const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
+console.log(objectives.length);
+
+
+
+
+
+
+
+
+// The .push method
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+
+chores.push('', '');
+
+console.log(chores);
+
+
+
+
+
+
+
+
+//the .pop method
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+
+chores.pop();
+
+console.log(chores);
